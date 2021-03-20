@@ -1,0 +1,33 @@
+.header-title {
+	color: #54a8d6;
+	width: 100%;
+	@media screen and (max-width: 1300px) {
+		font-size: 14px;
+	}
+}
+
+.header-item {
+	margin-left: 40px;
+	margin-right: 40px;
+	@media screen and (max-width: 1300px) {
+		margin-left: 6px;
+		margin-right: 6px;
+		font-size: 14px;
+	}
+}
+
+.header-items-container a {
+	color: #54a8d6;
+
+}
+.header-items-container a:hover {
+	-webkit-transform: scale(1.1);
+	text-decoration: none;
+	color: black;
+}
+
+.header-items-container a:active {
+	text-decoration: none;
+	color: black;
+}
+

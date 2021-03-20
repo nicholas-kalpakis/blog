@@ -1,0 +1,66 @@
+.home-page {
+	width: 100%;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+}
+
+.home-header {
+	margin-top: 100px;
+	width: 100%;
+	@media screen and (max-width: 1300px) {
+		margin-top: 50px;
+	}
+}
+
+.social-media-icon {
+	height: 200px;
+	width: 201px;
+
+	@media screen and (max-width: 1300px) {
+		height: 25px;
+		width: 26px;
+	}
+}
+
+.linked-in {
+	width: 700px;
+	@media screen and (max-width: 1300px) {
+		width: 87px;
+	}
+}
+
+.social-media-container {
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.card {
+	width: 60%;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+	@media screen and (max-width: 1300px) {
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 10px;
+		max-height: 160px;
+		width: 90%;
+
+	}
+}

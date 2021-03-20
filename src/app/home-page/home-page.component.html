@@ -1,0 +1,39 @@
+<div class="home-page">
+	<img  class="home-header" src="assets/img/home-header.jpg">
+	<div class="social-media-container">
+		<a href="https://www.facebook.com/kalpakis1"><img class="social-media-icon" src="assets/img/social-media/f_logo_RGB-Blue_100.png"></a>
+		<a href="https://www.instagram.com/nick_kalpakis/"><img class="social-media-icon" src="assets/img/social-media/glyph-logo_May2016.png"></a>
+		<a href="https://www.linkedin.com/in/nicholas-kalpakis-85619589/"><img class="social-media-icon linked-in" src="assets/img/social-media/LI-Logo.png"></a>
+		<a href="https://twitter.com/Kalpizzy7"><img class="social-media-icon" src="assets/img/social-media/Twitter_Social_Icon_Rounded_Square_Color.png"></a>
+	</div>
+	<div class="d-flex justify-content-center">
+		<div class="home-template d-flex flex-column align-items-center">
+			<app-blog-card [title]="introTitle" [body]="introBody" [img]="introImg" [author]="introAuthor" class="card"></app-blog-card>
+			<app-blog-card [title]="wfhTitle" [body]="wfhBody" [img]="wfhImg" [author]="wfhAuthor" class="card"></app-blog-card>
+			<app-blog-card [title]="futureTitle" [body]="futureBody" [img]="futureImg" [author]="futureAuthor" class="card"></app-blog-card>
+			<app-blog-card class="card"></app-blog-card>
+			<app-blog-card class="card"></app-blog-card>
+			<app-blog-card class="card"></app-blog-card>
+			<app-blog-card class="card"></app-blog-card>
+
+		</div>
+	</div>
+	
+
+	<head>
+		<title>Example of the Authorization Code flow with Spotify</title>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<style type="text/css">
+		  #login, #loggedin {
+			display: none;
+		  }
+		  .text-overflow {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 500px;
+		  }
+		</style>
+	  </head>
+</div>
+

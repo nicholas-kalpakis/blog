@@ -1,0 +1,15 @@
+<a routerLink="/blog" class="body d-flex">
+	<div class="meta flex-column col-8">
+		<div class="title">{{title}}</div>
+		<div class="description">{{body}}</div>
+	</div>
+	<div class="meta flex-column col-4">
+		<div *ngIf="img !== undefined"class="blog-thumbnail-container">
+			<img src="{{img}}" class="blog-thumbnail">
+		</div>
+		<div class="author d-flex justify-content-center">{{author}}</div>
+	</div>
+
+</a>
+
+
